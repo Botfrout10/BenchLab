@@ -1,0 +1,16 @@
+[package]
+name = "benchlab-ui"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "GPUI views, components, and charts for BenchLab"
+
+[dependencies]
+benchlab-core = { path = "../benchlab-core" }
+gpui.workspace = true
+unicode-segmentation.workspace = true
+async-trait = "0.1"
+chrono.workspace = true
+tracing.workspace = true
+serde_json.workspace = true
